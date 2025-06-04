@@ -12,11 +12,15 @@
     "type": "git",
     "url": "git+https://github.com/Ferris-State-University/node-starter.git"
   },
+  "type": "module",
   "keywords": [],
   "author": "Ferris State University",
   "license": "MIT",
   "homepage": "https://github.com/Ferris-State-University/node-starter#readme",
   "devDependencies": {
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.21"
   }
 }
