@@ -1,12 +1,12 @@
 {
   "name": "project",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A node project",
   "main": "./out/index.js",
   "scripts": {
     "build": "npx tsc && git add out/",
     "run": "node .",
-    "prebuild": "npm version patch --no-git-tag-version --no-commit-hooks --allow-same-version"
+    "bump:patch": "npm version patch --no-git-tag-version --no-commit-hooks --allow-same-version"
   },
   "repository": {
     "type": "git",
